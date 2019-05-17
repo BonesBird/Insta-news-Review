@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- start of head -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>News's News</title>
+    <link rel="stylesheet" href="./build/css/style.min.css">
+    <link rel="stylesheet" href="css/fontstyle.css">
+</head>
+<!-- end of head -->
+<!-- start of body -->
+<body>
+    <!-- start of header -->
+    <header>
+        <img src="./assets/images/nyt-logo.svg" alt="New York Times Logo">
+    </header>
+    <!-- end of header -->
+    <!-- begining of main content -->
+    <p>Choose a section:</p>
+    <select class="news-type">
+        <option value="sections">Sections ...</option>
+        <option value="arts">Art</option>
+        <option value="science">Science</option>
+        <option value="sports">Sports</option>
+    </select>
+    <!-- end of main content -->
+    
+    <!-- begining of css/scss/and js -->
+    <div class="loading">
+        <img src="/assets/images/ajax-loader.gif" alt="loading gif image">
+    </div>
+    <div class="news-box">
+        <div class="news"></div>
+    </div>
+    <!-- end of css/scss/and js -->
+    <!-- begining of footer -->
+    <footer>
+        <p>©️ Copyright 2019 INSTANEWS</p>
+    </footer>
+    <!-- end of footer -->
+    <!-- begining of scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="./build/js/script.min.js"></script>
+    <!-- end of scripts -->
+</body>
+<!-- end of body -->
+
+</html>
